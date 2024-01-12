@@ -1,6 +1,9 @@
+import { RouteMain } from "./Routes"
+
 function App () {
   return (
     <>
+    <RouteMain />
     </>
   )
 }
