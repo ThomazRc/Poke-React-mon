@@ -1,7 +1,11 @@
+import { ErrorSection } from "./style"
+
 export const ErrorPage = () => {
     return (
-        <>
-        <h1>Página de error</h1>
-        </>
+       <main>
+        <ErrorSection>
+            <h1>Teste</h1>
+        </ErrorSection>
+       </main>
     )
 }
