@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import { ErrorPage } from "./pages/ErrorPage"
-import { AboutPage } from "./pages/aboutPage"
+import { AboutPage } from "./pages/AboutPage"
 
 export const RouteMain = () => {
     return (
