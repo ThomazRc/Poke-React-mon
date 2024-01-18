@@ -27,8 +27,8 @@ export const ErrorSection = styled.section`
   a:hover {
     background-color: gold;
     color: blue;
-    transition: 0.5s;
-    
+    transition: 0.3s;
+
   }
 
 
