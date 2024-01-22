@@ -1,12 +1,12 @@
-import { RouteMain } from "./Routes"
-import { GlobalStyle } from "./styles/globalStyles"
+import { RouteMain } from "./Routes";
+import { GlobalStyle } from "./styles/globalStyles";
 
-function App () {
+function App() {
   return (
     <>
-    <GlobalStyle/>
-    <RouteMain />
+      <GlobalStyle />
+      <RouteMain />
     </>
-  )
+  );
 }
-export default App
+export default App;

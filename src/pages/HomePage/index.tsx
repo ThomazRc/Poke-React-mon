@@ -6,7 +6,9 @@ export const HomePage = () => {
     <>
       <Header />
       <main>
+        <section>
 
+        </section>
       </main>
       <Footer />
     </>
