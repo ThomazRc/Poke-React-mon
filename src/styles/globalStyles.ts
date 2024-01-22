@@ -11,6 +11,7 @@ body {
     text-decoration: none;
     width: 100vw;
     height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
