@@ -1,9 +1,9 @@
 import React from 'react';
 
-export interface iProvideProps {
+export interface IProvideProps {
     children: React.ReactNode;
 }
 
-export interface IgetPokemon {
+export interface IGetPokemon {
 
 }

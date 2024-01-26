@@ -1,10 +1,10 @@
 import { createContext, useEffect } from "react";
 //import { api } from "../services/api";
-import { iProvideProps } from "../interfaces";
+import { IProvideProps } from "../interfaces";
 
 export const PokeContext = createContext({});
 
-export const PokeProvider =  ({children}: iProvideProps) => {
+export const PokeProvider =  ({children}: IProvideProps) => {
 
     useEffect(() => {
         /*
