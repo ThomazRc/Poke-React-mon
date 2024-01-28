@@ -7,9 +7,9 @@ import { PokeProvider } from "./providers/PokeContext.tsx";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <BrowserRouter>
-    <PokeProvider>
-    <App />
-    </PokeProvider>
+      <PokeProvider>
+        <App />
+      </PokeProvider>
     </BrowserRouter>
   </React.StrictMode>
 );
