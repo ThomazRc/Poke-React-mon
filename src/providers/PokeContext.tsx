@@ -1,16 +1,16 @@
 import { createContext, useEffect, useState } from "react";
 import { api } from "../services/api";
-import { IProvideProps } from "../interfaces";
+import { IGetPokemon, IProvideProps, IPokeContext } from "../interfaces";
 
-export const PokeContext = createContext({});
+export const PokeContext = createContext({} as IPokeContext);
 
 export const PokeProvider = ({ children }: IProvideProps) => {
-  const [pokeList, setPokeList] = useState([]);
+  const [pokeList, setPokeList] = useState<IGetPokemon[]>([]);
 
   useEffect(() => {
     const getPokemons = async () => {
       try {
-        const response = await api.get("");
+        const response = await api.get<IGetPokemon[]>('');
 
         setPokeList(response.data);
       } catch (error) {
