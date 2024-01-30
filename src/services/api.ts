@@ -1,6 +1,3 @@
-import axios from "axios";
+import { PokemonClient } from "pokenode-ts";
 
-export const api = axios.create({
-  baseURL: "https://pokeapi.co/api/v2/pokemon",
-  timeout: 5000,
-});
+export const api = new PokemonClient();

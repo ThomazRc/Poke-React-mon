@@ -1,18 +1,19 @@
 import { createContext, useEffect, useState } from "react";
 import { api } from "../services/api";
-import { IGetPokemon, IProvideProps, IPokeContext } from "../interfaces";
+import { IProvideProps, IPokeContext } from "../interfaces";
+import { NamedAPIResource } from "pokenode-ts";
 
 export const PokeContext = createContext({} as IPokeContext);
 
 export const PokeProvider = ({ children }: IProvideProps) => {
-  const [pokeList, setPokeList] = useState<IGetPokemon[]>([]);
+  const [pokeList, setPokeList] = useState<NamedAPIResource[]>([]);
 
   useEffect(() => {
     const getPokemons = async () => {
       try {
-        const response = await api.get<IGetPokemon[]>('');
+        const response = await api.listPokemons(1, 20)
 
-        setPokeList(response.data);
+        setPokeList(response.results);
       } catch (error) {
         console.error(error);
       }
