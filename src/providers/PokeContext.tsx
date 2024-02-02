@@ -11,7 +11,7 @@ export const PokeProvider = ({ children }: IProvideProps) => {
   useEffect(() => {
     const getPokemons = async () => {
       try {
-        const response = await api.listPokemons(1, 20)
+        const response = await api.listPokemons(0, 30)
 
         setPokeList(response.results);
       } catch (error) {
