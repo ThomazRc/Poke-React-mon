@@ -4,7 +4,7 @@ export const StyledHeader = styled.header`
 display: flex;
 align-items: center;
 flex-direction: column;
-border-bottom: 1px solid black;
+border-bottom: 1px solid #dec140;
 
 nav {
     display: flex;
