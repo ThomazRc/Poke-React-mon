@@ -4,7 +4,7 @@ export const StyledHeader = styled.header`
 display: flex;
 align-items: center;
 flex-direction: column;
-border-bottom: 1px solid #dec140;
+border-bottom: 1px solid var(--primary);
 
 nav {
     display: flex;
@@ -28,12 +28,12 @@ ul {
 
 a {
     text-decoration: none;
-    color: #dec140;
+    color: var(--primary);
 
 }
 
 a:hover {
-    color: aqua;
+    color: var(--secondary);
     transition: 0.4s;
 
 }

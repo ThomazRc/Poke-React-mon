@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-    border-top: 1px solid #dec140;
+    border-top: 1px solid var(--primary);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +15,7 @@ export const StyledFooter = styled.footer`
   
   span {
     font-weight: bold;
-    color: #dec140;
+    color: var(--primary);
     
   }
 `

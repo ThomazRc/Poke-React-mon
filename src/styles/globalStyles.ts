@@ -2,6 +2,12 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
+:root {
+    --primary: #dec140;
+    --secondary: #2110FF;
+    
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -25,8 +31,10 @@ main {
 
 }
 
-:root {
-    
+
+button {
+    cursor: pointer;
+
 }
 
 
