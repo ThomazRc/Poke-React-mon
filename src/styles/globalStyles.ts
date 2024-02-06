@@ -23,14 +23,22 @@ body {
 
 main {
     width: 100%;
-    height: auto;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50%;
 
 }
 
+header {
+    height: 20vh;
+
+}
+
+footer {
+    height: 20vh;
+
+}
 
 button {
     cursor: pointer;

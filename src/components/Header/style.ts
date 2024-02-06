@@ -4,19 +4,19 @@ export const StyledHeader = styled.header`
 display: flex;
 align-items: center;
 flex-direction: column;
+justify-content: space-around;
 border-bottom: 1px solid var(--primary);
 
 nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
+    height: 18.75rem;
 }
 
-
-
-
 img {
-    padding-left: 4.375rem;
+    padding-left: 1rem;
 
 }
 

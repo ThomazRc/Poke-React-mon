@@ -10,7 +10,7 @@ export const Header = () => {
   return (
     <StyledHeader>
       <nav>
-      <img src="/src/assets/pokeapi-removebg-preview.png" alt="Logo PokeReactApi"/>
+      <img src="/src/assets/pokeReactApi.png" alt="Logo PokeReactApi"/>
       <ul>
         <li><Link to={linkTo}>{linkText}</Link></li>
       </ul>

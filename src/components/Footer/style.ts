@@ -6,7 +6,6 @@ export const StyledFooter = styled.footer`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 200px;
   
    h3 {
     margin-bottom: 1.2em;
