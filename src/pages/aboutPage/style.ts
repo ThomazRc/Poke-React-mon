@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
 export const AboutMain = styled.main`
-
-section {
+  section {
     background-color: var(--secondary);
 
-}
-
-
-`
+  }
+  
+`;

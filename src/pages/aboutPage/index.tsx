@@ -8,8 +8,14 @@ export const AboutPage = () => {
       <Header />
       <AboutMain>
         <section>
-        <h1>Contando mais sobre o projeto</h1>
-        <p>Inserir texto de explicação.</p>
+          <article>
+            <h1>Sobre o PokeReactApi</h1>
+            <p>Inserir texto de explicação.</p>
+          </article>
+          <article>
+            <h1>Sobre Mim...</h1>
+            <p>Falando sobre mim</p>
+          </article>
         </section>
       </AboutMain>
       <Footer />
