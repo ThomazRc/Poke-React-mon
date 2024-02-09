@@ -5,5 +5,11 @@ export const AboutMain = styled.main`
     background-color: var(--secondary);
 
   }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+
+  }
   
 `;
