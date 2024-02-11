@@ -6,10 +6,10 @@ import { AboutMain } from "./style";
 export const AboutPage = () => {
   const [language, setLanguage] = useState<"pt" | "en">("pt");
 
- /* const changeLanguage = () => {
+  const changeLanguage = () => {
     setLanguage(language === "pt" ? "en" : "pt");
   };
- */
+
 
   return (
     <>
