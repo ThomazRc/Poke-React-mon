@@ -1,15 +1,8 @@
-import { useState } from "react";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { AboutMain } from "./style";
 
 export const AboutPage = () => {
-  const [language, setLanguage] = useState<"pt" | "en">("pt");
-
-  const changeLanguage = () => {
-    setLanguage(language === "pt" ? "en" : "pt");
-  };
-
 
   return (
     <>
