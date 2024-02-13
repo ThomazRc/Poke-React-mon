@@ -1,6 +1,10 @@
+import { Link } from "react-router-dom";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { AboutMain } from "./style";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
 
 export const AboutPage = () => {
 
@@ -28,6 +32,9 @@ export const AboutPage = () => {
           <article>
             <h1>Sobre Mim</h1>
             <p>Meu nome é Thomaz, tenho atualmente 22 anos e sou brasileiro. Sou formado em Análise e Desenvolvimento de Sistemas e apaixonado por programação e tecnologia. Meu objetivo com este projeto é desenvolver minhas habilidades de front-end utilizando TypeScript com React. Se quiser saber mais sobre mim e meus projetos, ou até mesmo conversar e enviar feedback ou sugestões de melhorias, estas são minhas redes sociais. Obrigado pela atenção!</p>
+          </article>
+          <article>
+            <Link to="https://www.linkedin.com/in/thomaz-rosseti-coelho-ti369/"><FontAwesomeIcon icon={faLinkedin} /></Link>
           </article>
         </section>
       </AboutMain>
