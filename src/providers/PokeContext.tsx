@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 import { api } from "../services/api";
-import { IProvideProps, IPokeContext } from "../interfaces";
+import { IProvideProps, IPokeContext, IUserData } from "../interfaces";
 import { NamedAPIResource } from "pokenode-ts";
 
 export const PokeContext = createContext({} as IPokeContext);
@@ -21,5 +21,10 @@ export const PokeProvider = ({ children }: IProvideProps) => {
     getPokemons();
   }, []);
 
-  return <PokeContext.Provider value={{ pokeList }}>{children}</PokeContext.Provider>;
+  const userData: IUserData = {
+      linkedin: "https://www.linkedin.com/in/thomaz-rosseti-coelho-ti369/",
+      gitHub: "https://github.com/ThomazRc",
+    };
+
+  return <PokeContext.Provider value={{ pokeList, userData }}>{children}</PokeContext.Provider>;
 };

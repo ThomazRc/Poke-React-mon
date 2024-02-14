@@ -4,9 +4,13 @@ import { Header } from "../../components/Header";
 import { AboutMain } from "./style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
+import { useContext } from "react";
+import { PokeContext } from "../../providers/PokeContext";
 
 
 export const AboutPage = () => {
+  const { userData } = useContext(PokeContext)
 
   return (
     <>
@@ -34,7 +38,8 @@ export const AboutPage = () => {
             <p>Meu nome é Thomaz, tenho atualmente 22 anos e sou brasileiro. Sou formado em Análise e Desenvolvimento de Sistemas e apaixonado por programação e tecnologia. Meu objetivo com este projeto é desenvolver minhas habilidades de front-end utilizando TypeScript com React. Se quiser saber mais sobre mim e meus projetos, ou até mesmo conversar e enviar feedback ou sugestões de melhorias, estas são minhas redes sociais. Obrigado pela atenção!</p>
           </article>
           <article>
-            <Link to="https://www.linkedin.com/in/thomaz-rosseti-coelho-ti369/"><FontAwesomeIcon icon={faLinkedin} /></Link>
+            <Link to={userData.linkedin}><FontAwesomeIcon icon={faLinkedin} /></Link>
+            <Link to={userData.gitHub}><FontAwesomeIcon icon={faGithub} /></Link>
           </article>
         </section>
       </AboutMain>

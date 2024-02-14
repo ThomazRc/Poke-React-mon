@@ -7,6 +7,13 @@ export interface IProvideProps {
 
 export interface IPokeContext {
   pokeList: NamedAPIResource[];
+  userData: IUserData;
+
+}
+
+export interface IUserData {
+  linkedin: string;
+  gitHub: string;
 
 }
 
