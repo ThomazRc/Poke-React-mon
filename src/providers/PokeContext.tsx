@@ -11,7 +11,7 @@ export const PokeProvider = ({ children }: IProvideProps) => {
   useEffect(() => {
     const getPokemons = async () => {
       try {
-        const response = await api.listPokemons(0, 30)
+        const response = await api.listPokemons(0, 30);
 
         setPokeList(response.results);
       } catch (error) {
@@ -22,9 +22,9 @@ export const PokeProvider = ({ children }: IProvideProps) => {
   }, []);
 
   const userData: IUserData = {
-      linkedin: "https://www.linkedin.com/in/thomaz-rosseti-coelho-ti369/",
-      gitHub: "https://github.com/ThomazRc",
-    };
+    linkedin: "https://www.linkedin.com/in/thomaz-rosseti-coelho-ti369/",
+    gitHub: "https://github.com/ThomazRc",
+  };
 
   return <PokeContext.Provider value={{ pokeList, userData }}>{children}</PokeContext.Provider>;
 };
