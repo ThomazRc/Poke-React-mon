@@ -23,7 +23,7 @@ body {
 
 main {
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,12 +31,12 @@ main {
 }
 
 header {
-    height: 20vh;
+    height: 12.5rem;
 
 }
 
 footer {
-    height: 20vh;
+    height: 12.5rem;
 
 }
 
