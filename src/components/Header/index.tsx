@@ -6,15 +6,17 @@ export const Header = () => {
 
   const linkTo = location.pathname === "/about" ? "/" : "/about";
   const linkText = location.pathname === "/about" ? "Home" : "About";
-  
+
   return (
     <StyledHeader>
       <nav>
-      <img src="/src/assets/pokeReactApi.png" alt="Logo PokeReactApi"/>
-      <ul>
-        <li><Link to={linkTo}>{linkText}</Link></li>
-      </ul>
-    </nav>
+        <img src="/src/assets/pokeReactApi.png" alt="Logo PokeReactApi" />
+        <ul>
+          <li>
+            <Link to={linkTo}>{linkText}</Link>
+          </li>
+        </ul>
+      </nav>
     </StyledHeader>
   );
 };
