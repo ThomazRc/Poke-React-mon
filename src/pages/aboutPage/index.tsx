@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
-import { AboutMain } from "./style";
+import { AboutSection } from "./style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
@@ -14,8 +14,8 @@ export const AboutPage = () => {
   return (
     <>
       <Header />
-      <AboutMain>
-        <section>
+      <main>
+        <AboutSection>
           <article>
             <h1>Sobre o PokeReactApi</h1>
             <p>
@@ -41,16 +41,21 @@ export const AboutPage = () => {
               sugestões de melhorias, estas são minhas redes sociais. Obrigado pela atenção!
             </p>
           </article>
-          <article>
+          <article className="article-profile">
+            <article>
+              <img src="../../assets/Profile.png" alt="Profile"/>
+            </article>
+            <article>
             <Link to={userData.linkedin}>
               <FontAwesomeIcon icon={faLinkedin} />
             </Link>
             <Link to={userData.gitHub}>
               <FontAwesomeIcon icon={faGithub} />
             </Link>
+            </article>
           </article>
-        </section>
-      </AboutMain>
+        </AboutSection>
+      </main>
       <Footer />
     </>
   );
