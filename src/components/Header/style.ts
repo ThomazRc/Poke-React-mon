@@ -16,12 +16,15 @@ export const StyledHeader = styled.header`
   }
 
   img {
-    padding-left: 1rem;
+    padding-right: 1rem;
+
   }
 
   ul {
     list-style: none;
     font-weight: bold;
+    padding: 0;
+    
   }
 
   a {

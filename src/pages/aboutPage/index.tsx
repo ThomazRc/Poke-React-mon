@@ -16,7 +16,7 @@ export const AboutPage = () => {
       <Header />
       <main>
         <AboutSection>
-          <article>
+          <article className="article-about">
             <h1>Sobre o PokeReactApi</h1>
             <p>
               Bem-vindo ao meu projeto! Aqui, estou explorando a emocionante interseção entre tecnologia e criatividade, enquanto desenvolvo
@@ -32,7 +32,7 @@ export const AboutPage = () => {
               mundo dos Pokémon comigo!
             </p>
           </article>
-          <article>
+          <article className="article-profile">
             <h1>Sobre Mim</h1>
             <p>
               Meu nome é Thomaz, tenho atualmente 22 anos e sou brasileiro. Sou formado em Análise e Desenvolvimento de Sistemas e
@@ -40,8 +40,7 @@ export const AboutPage = () => {
               utilizando TypeScript com React. Se quiser saber mais sobre mim e meus projetos, ou até mesmo conversar e enviar feedback ou
               sugestões de melhorias, estas são minhas redes sociais. Obrigado pela atenção!
             </p>
-          </article>
-          <article className="article-profile">
+            <article>
             <article>
               <img src="../../assets/Profile.png" alt="Profile"/>
             </article>
@@ -53,6 +52,7 @@ export const AboutPage = () => {
               <FontAwesomeIcon icon={faGithub} />
             </Link>
             </article>
+          </article>
           </article>
         </AboutSection>
       </main>
