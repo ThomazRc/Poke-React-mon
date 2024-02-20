@@ -4,7 +4,7 @@ export const GlobalStyle = createGlobalStyle`
 
 :root {
     --primary: #dec140;
-    --secondary: #2110FF;
+    --secondary: #ffff;
     
 }
 
@@ -38,6 +38,14 @@ header {
 
 footer {
     height: 12.5rem;
+
+}
+
+article {
+    width: auto;
+    background-color: var(--primary);
+    color: #FFF;
+    border-radius: 25px;
 
 }
 

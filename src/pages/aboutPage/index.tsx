@@ -44,7 +44,7 @@ export const AboutPage = () => {
             <article>
               <img src="../../assets/Profile.png" alt="Profile"/>
             </article>
-            <article>
+            <article className="article-links">
             <Link to={userData.linkedin}>
               <FontAwesomeIcon icon={faLinkedin} />
             </Link>
