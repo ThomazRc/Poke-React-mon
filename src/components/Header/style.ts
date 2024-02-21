@@ -39,7 +39,11 @@ export const StyledHeader = styled.header`
 
   @media (min-width: 750px) {
     nav {
+      width: 100%;
       flex-direction: row;
+      justify-content: space-around;
+
     }
+
   }
 `;

@@ -23,9 +23,18 @@ export const AboutSection = styled.section`
   }
 
   .article-links {
+    width: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
+  }
+
+  .linkedin-logo {
+    color: #0077B5;
+  }
+
+  .gitHub-logo {
+    color: #000;
   }
 
   h1 {
@@ -33,8 +42,15 @@ export const AboutSection = styled.section`
     justify-content: center;
   }
 
-  img {
-    width: 500px;
-    height: 300px;
+  @media (min-width: 750px) {
+    .article-about {
+    height: 16rem;
+    margin: 1rem;
+    padding: 1rem;
+
   }
+
+
+  }
+
 `;

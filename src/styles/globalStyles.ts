@@ -4,7 +4,6 @@ export const GlobalStyle = createGlobalStyle`
 
 :root {
     --primary: #dec140;
-    --secondary: #ffff;
     
 }
 
@@ -44,7 +43,6 @@ footer {
 article {
     width: auto;
     background-color: var(--primary);
-    color: #FFF;
     border-radius: 25px;
 
 }
