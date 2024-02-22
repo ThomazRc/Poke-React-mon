@@ -17,14 +17,12 @@ export const StyledHeader = styled.header`
 
   img {
     padding-right: 1rem;
-
   }
 
   ul {
     list-style: none;
     font-weight: bold;
     padding: 0;
-    
   }
 
   a {
@@ -42,8 +40,6 @@ export const StyledHeader = styled.header`
       width: 100%;
       flex-direction: row;
       justify-content: space-around;
-
     }
-
   }
 `;

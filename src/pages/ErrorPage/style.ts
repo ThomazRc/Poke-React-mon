@@ -10,7 +10,6 @@ export const ErrorSection = styled.section`
   align-items: center;
   background-color: gray;
 
-
   a {
     width: 9.375rem;
     height: 1.875rem;
@@ -21,15 +20,11 @@ export const ErrorSection = styled.section`
     align-items: center;
     justify-content: center;
     border-radius: 50px;
-
   }
 
   a:hover {
     background-color: gold;
     color: blue;
     transition: 0.3s;
-
   }
-
-
 `;

@@ -41,15 +41,15 @@ export const AboutPage = () => {
               sugestões de melhorias, estas são minhas redes sociais. Obrigado pela atenção!
             </p>
             <article>
-            <article className="article-links">
-            <Link to={userData.linkedin} className="linkedin-logo">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </Link>
-            <Link to={userData.gitHub} className="gitHub-logo">
-              <FontAwesomeIcon icon={faGithub} />
-            </Link>
+              <article className="article-links">
+                <Link to={userData.linkedin} className="linkedin-logo">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </Link>
+                <Link to={userData.gitHub} className="gitHub-logo">
+                  <FontAwesomeIcon icon={faGithub} />
+                </Link>
+              </article>
             </article>
-          </article>
           </article>
         </AboutSection>
       </main>

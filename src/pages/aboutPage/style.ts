@@ -1,15 +1,13 @@
 import styled from "styled-components";
 
 export const AboutSection = styled.section`
-    width: 80%;
-    margin: auto;
-
+  width: 80%;
+  margin: auto;
 
   .article-about {
     height: 34.125rem;
     margin: 1rem;
     padding: 1rem;
-
   }
 
   .article-profile {
@@ -19,18 +17,16 @@ export const AboutSection = styled.section`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
   }
 
   .article-links {
     width: 100px;
     display: flex;
     justify-content: space-evenly;
-
   }
 
   .linkedin-logo {
-    color: #0077B5;
+    color: #0077b5;
   }
 
   .gitHub-logo {
@@ -44,13 +40,9 @@ export const AboutSection = styled.section`
 
   @media (min-width: 750px) {
     .article-about {
-    height: 16rem;
-    margin: 1rem;
-    padding: 1rem;
-
+      height: 16rem;
+      margin: 1rem;
+      padding: 1rem;
+    }
   }
-
-
-  }
-
 `;
