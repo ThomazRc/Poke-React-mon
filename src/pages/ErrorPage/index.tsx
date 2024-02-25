@@ -3,7 +3,7 @@ import { ErrorSection } from "./style";
 
 export const ErrorPage = () => {
   return (
-    <main>
+    <main className="container">
       <ErrorSection>
         <img alt="pokeball-react"/>
         <h2>Opss... Você não capturou o pokemon</h2>
