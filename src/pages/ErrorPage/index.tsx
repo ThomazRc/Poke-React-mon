@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
-import { ErrorSection } from "./style";
+import { ErrorMain } from "./style";
 
 export const ErrorPage = () => {
   return (
-    <main className="container">
-      <ErrorSection>
-        <img alt="pokeball-react"/>
+    <ErrorMain>
+      <section>
+        <img src="../../assets/pokebola-react.jfif" alt="pokeball-react"/>
         <h2>Opss... Você não capturou o pokemon</h2>
         <Link to={"/"}>Voltar</Link>
-      </ErrorSection>
-    </main>
+      </section>
+    </ErrorMain>
   );
 };

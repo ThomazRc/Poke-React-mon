@@ -4,6 +4,7 @@ export const AboutSection = styled.section`
   width: 80%;
   margin: auto;
 
+
   .article-about {
     height: 34.125rem;
     margin: 1rem;
