@@ -25,7 +25,7 @@ export const ErrorMain = styled.main`
     width: 9.375rem;
     height: 1.875rem;
     text-decoration: none;
-    background-color: blue;
+    background-color: #def;
     color: var(--primary);
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@ export const ErrorMain = styled.main`
 
   a:hover {
     background-color: var(--primary);
-    color: blue;
+    color: #def;
     transition: 0.3s;
   }
 `;
