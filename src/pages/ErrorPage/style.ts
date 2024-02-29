@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ErrorMain = styled.main`
   height: 100vh;
-  background-image: url("../../assets/missingNo.jpg");
+  background-image: url("src/assets/missingNo.jpg");
   background-size: cover;
 
   section {
@@ -14,6 +14,11 @@ export const ErrorMain = styled.main`
     align-items: center;
     border-radius: 25px;
     background-color: var(--primary);
+  }
+
+  img {
+    width: 150px;
+    height: 100px;
   }
 
   h2 {
