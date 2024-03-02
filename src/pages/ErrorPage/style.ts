@@ -27,5 +27,4 @@ export const ErrorMain = styled.main`
     margin-left: 1.5625rem;
     font-size: 1.25rem;
   }
-
 `;
