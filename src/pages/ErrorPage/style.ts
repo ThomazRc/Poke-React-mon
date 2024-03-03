@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ErrorMain = styled.main`
   height: 100vh;
-  background-image: url("src/assets/missingNo.jpg");
+  background-image: url("src/assets/missingNoP.jpg");
   background-size: contain;
   background-position: center;
 
@@ -27,4 +27,10 @@ export const ErrorMain = styled.main`
     margin-left: 1.5625rem;
     font-size: 1.25rem;
   }
+
+  @media (min-width: 750px) {
+    background-size: auto;
+
+  }
+
 `;
